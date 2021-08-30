@@ -12,9 +12,6 @@ body {
 	
 	object-fit:cover;
 	
-	filter:blur(20px);
-	-webkit-filter:blur(20px);
-	
 	z-index:1;
 }
 
@@ -31,9 +28,17 @@ body {
 	justify-content:center;
 }
 
+#content {
+	background-color:#323232;
+	padding:20px;
+	margin:20px;
+	
+	border-radius:20px;
+}
+
 #mainText {
 	text-align:center;
-	color:white;
+	color:#fffff7;
 	
 	font-size:max(40px, min(5vw,100px));
 	font-family:sans-serif;
@@ -41,10 +46,18 @@ body {
 
 .secondaryText {
 	text-align:center;
-	color:white;
+	color:#dbdad4;
 	
 	margin-top:-20px;
 	
 	font-size:max(30px, min(3vw,80px));
 	font-family:sans-serif;
+}
+
+a {
+	color: #85d3dc;
+}
+
+a:hover {
+	color: #d55b71
 }
